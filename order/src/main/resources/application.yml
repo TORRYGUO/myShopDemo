@@ -1,3 +1,4 @@
+#####################订单
 server:
   port: 8086
 
@@ -75,14 +76,3 @@ spring:
         min-idle: 0
       # 连接超时时间（毫秒）
       shutdown-timeout: 10000
-
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.guo.order.dao
-
-logging:
-  level:
-    com:
-      codingapi:
-        txlcn: DEBUG
